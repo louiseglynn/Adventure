@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\classes-f915659c7bdfdf610275e22021efd4c150ede82e.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-188c8c360937f0a564253a159bca2c41d61d5273.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\classes-74924a7eb55ed527081c5eb17364a1e41312a15a.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\classes-2fbfb938135f000aa88fd2a3367ab27a4fde3d5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-5133051e2a141502a5499a5a5428374a921327e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\libs\Parse-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2a812174191af5a4513a873602a765b0171f252c">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\Parse-1.6.0-4e21926283cbab745fbb4e1caa7acd2aee657492.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\classes-6c425cc39d38bcb38347027add0c4a852db09b1a.jar" />
+    </item>
+    <item
+        jar="C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\louise\Desktop\Adventure\build\intermediates\pre-dexed\debug\classes-174ce5771646b13ad3e94d0ac5ef8b5c82a38335.jar" />
+    </item>
+
+</items>

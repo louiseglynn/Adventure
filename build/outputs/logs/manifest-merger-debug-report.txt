@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:3:5-43
+	android:versionName
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml
+		INJECTED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:9:5-81
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:10:5-81
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:11:22-76
+uses-sdk
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:13:5-15:41
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:15:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:14:9-35
+application
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:17:5-62:19
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.0.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:22:9-40
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:21:9-33
+activity#com.example.androidadventure.MainActivity
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:23:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:25:13-49
+	android:label
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:24:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:29:27-74
+activity#com.example.androidadventure.Welcome
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:32:10-36:20
+	android:screenOrientation
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:35:13-59
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:33:13-36
+activity#com.example.androidadventure.LoginSignupActivity
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:37:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:40:13-64
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:38:13-48
+activity#com.example.androidadventure.Camera_Activity
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:42:11-46:20
+	android:screenOrientation
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:45:13-45
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:43:13-44
+activity#com.example.androidadventure.Map_Activity
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:47:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:48:13-41
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:53:9-55:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:55:13-66
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:54:13-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:57:9-59:70
+	android:value
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:59:13-68
+	android:name
+		ADDED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:58:13-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:24:5-26:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:25:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\louise\Desktop\Adventure\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\AndroidManifest.xml:26:8-31
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\louise\Desktop\Adventure\AndroidManifest.xml:2:1-64:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE

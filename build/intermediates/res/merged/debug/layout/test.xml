@@ -1,0 +1,163 @@
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/Clear" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+string/Send" />
+        
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:stretchColumns="1" >
+        
+      <View
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+      <View
+        android:layout_height="6dip"/>
+        	         
+      <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/To" />
+                         
+            <MultiAutoCompleteTextView
+                android:id="@+id/textTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:textColor="#000"
+                android:background="#FAF7ED"
+                android:text="" />
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:text="@+string/Cc" />
+                   
+            <EditText
+                android:id="@+id/textCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:focusable="true" 
+                android:focusableInTouchMode="true"
+                android:textColor="#000"
+                android:background="#FAF7ED"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/Bcc" />
+            
+            <EditText
+                android:id="@+id/textBCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true" 
+                android:focusableInTouchMode="true"
+                android:background="#FAF7ED"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/textView4"
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true" 
+                android:focusableInTouchMode="true"    
+                android:text="@+string/Subject" />
+                    
+            <EditText
+                android:id="@+id/textSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FAF7ED"
+                android:text="" />
+            
+        </TableRow>
+        
+       <TableRow
+	        android:id="@+id/tableRow5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent" >
+                     
+	        <EditText
+	            android:id="@+id/bodyEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true" 
+                android:focusableInTouchMode="true"
+                android:gravity="top|left"
+                android:background="#FAF7ED"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:text=""
+	            android:layout_span="2"
+				android:lines="4"/>
+
+	    </TableRow>
+        
+    </TableLayout>
+    
+</LinearLayout>    <!-- From: file:/C:/Users/louise/Desktop/Adventure/res/layout/test.xml -->

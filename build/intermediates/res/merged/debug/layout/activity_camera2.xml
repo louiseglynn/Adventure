@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"> <!-- to show what the parent is -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Preview"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            
+            android:src="@drawable/android" />
+    </LinearLayout>
+
+    
+    <!-- android:scaleType="centerInside" -->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="6dip" />
+        
+        <!-- Capture picture button -->
+        
+        <Button
+            android:id="@+id/btnCapturePicture"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Take Picture"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        
+         <!-- Capture picture button -->
+         
+        <Button
+            android:id="@+id/btnSavePicture"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Save Picture"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+        
+        <!-- Parse Sign out button -->       
+        
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Sign Out"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+        
+        <!-- View Gallery button -->       
+        
+        <Button
+            android:id="@+id/btnViewPhotoMap"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="View Map"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>                
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/louise/Desktop/Adventure/res/layout/activity_camera2.xml -->
